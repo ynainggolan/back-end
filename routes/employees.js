@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { Course, Employee } = require('../database/models');
+const { Task, Employee } = require('../database/models');
 
 // helper function so we don't need to wrap our
 // handler functions in try-catch blocks;
